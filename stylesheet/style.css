@@ -1,0 +1,76 @@
+header
+{
+    height: 20%;
+}
+#dataInvoegen
+{
+    height: 60%;
+}
+footer
+{
+    height: 20%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #F7C621;
+}
+
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+.center
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+#divHeader
+{
+    background-color: #E6323B;
+}
+body{
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.fixed-header, .fixed-footer{
+    width: 100%;
+    position: fixed;
+    background: #333;
+    padding: 10px 0;
+    color: #fff;
+}
+.fixed-header{
+    top: 0;
+}
+.fixed-footer{
+    bottom: 0;
+}
+.container{
+    width: 80%;
+    margin: 0 auto; /* Center the DIV horizontally */
+}
+nav a{
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 25px;
+    display: inline-block;
+}
