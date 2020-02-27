@@ -1,12 +1,20 @@
-header
+body{
+
+    padding: 0px;
+    margin: 0px;
+}
+#header
 {
     height: 20%;
 }
-#dataInvoegen
+
+#contactTable
 {
-    height: 60%;
+    height: 10%;
+    background-color: #58ADFE;
+
 }
-footer
+#footer
 {
     height: 20%;
 }
@@ -32,9 +40,9 @@ li a {
     text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
+
 li a:hover {
-    background-color: #111;
+    background-color: #ffffff;
 }
 .center
 {
@@ -42,15 +50,13 @@ li a:hover {
     margin-left: auto;
     margin-right: auto;
     width: 20%;
+
 }
 #divHeader
 {
     background-color: #E6323B;
 }
-body{
-    padding-top: 60px;
-    padding-bottom: 40px;
-}
+
 .fixed-header, .fixed-footer{
     width: 100%;
     position: fixed;
@@ -69,8 +75,29 @@ body{
     margin: 0 auto; /* Center the DIV horizontally */
 }
 nav a{
-    color: #fff;
+    color: #000000;
     text-decoration: none;
     padding: 7px 25px;
     display: inline-block;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#redColorContactTable
+{
+    background-color: #9E100F;
+}
+#blueColorContactTable
+{
+    background-color: #58ADFE;
+}
+
+#footerPic
+{
+    height: 200px;
+    width: 100%;
+}
+#alignPage
+{
+    margin-bottom: 15%;
 }
