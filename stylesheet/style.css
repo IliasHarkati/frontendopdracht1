@@ -10,7 +10,7 @@ body{
 
 #contactTable
 {
-    height: 10%;
+
     background-color: #58ADFE;
 
 }
@@ -99,5 +99,6 @@ nav a{
 }
 #alignPage
 {
-    margin-bottom: 15%;
+    margin-top: 5%;
+    margin-bottom: 10%;
 }
