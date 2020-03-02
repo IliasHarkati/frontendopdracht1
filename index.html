@@ -12,53 +12,57 @@
             <img src="image/logo.JPG" class="center">
         </div>
         <nav>
-            <ul >
-                <li><a href="#" class="center" id="currentPage">Home</a></li>
-                <li><a href="#" class="center">producten</a></li>
-                <li><a href="#" class="center">nieuws</a></li>
-                <li><a href="#" class="center">overons</a></li>
-                <li><a href="#" class="center">contact</a></li>
-            </ul>
+            <div id="alignUl">
+                <ul>
+                    <li><a href="#" class="center" id="currentPage">Home</a></li>
+                    <li><a href="#" class="center">producten</a></li>
+                    <li><a href="#" class="center">nieuws</a></li>
+                    <li><a href="#" class="center">overons</a></li>
+                    <li><a href="#" class="center">contact</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
     <div id="alignPage" >
-        <table align="center" id="contactTable" >
+        <table align="center" id="contactTable" width="750" height="400">
             <tr id="redColorContactTable" >
                 <th colspan="2" >contact us</th>
             </tr>
             <tr>
                 <td>aanhef</td>
                 <td>
-                    <input type="text" name="aanhef">
+                    <input class="sizeTextbox" type="text" name="aanhef">
                 </td>
             </tr>
             <tr>
                 <td>naam</td>
                 <td>
-                    <input type="text" name="name">
+                    <input class="sizeTextbox" type="text" name="name">
                 </td>
             </tr>
             <tr>
                 <td>E-mailadres</td>
                 <td>
-                    <input type="email" name="email">
+                    <input class="sizeTextbox" type="email" name="email">
                 </td>
             </tr>
             <tr>
                 <td>telefoonnummer</td>
                 <td>
-                    <input type="tel" name="tel">
+                    <input class="sizeTextbox" type="tel" name="tel">
                 </td>
             </tr>
             <tr>
                 <td>vraag/opmerking</td>
                 <td>
-                    <input type="text" name="question">
+                    <textarea class="sizeTextbox" rows="4" cols="50"></textarea>
                 </td>
             </tr>
             <tr>
-                <td><input type="radio" name="conditions"> aanmelden voor de nieuwsbrief</td>
-
+                <td><input  type="radio" name="conditions"> aanmelden voor de nieuwsbrief</td>
+            </tr>
+            <tr>
+                <td><input  type="submit">versturen</td>
             </tr>
         </table>
     </div>

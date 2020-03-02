@@ -12,11 +12,22 @@ body{
 {
 
     background-color: #58ADFE;
-
+    font-size: 32px;
+    font-weight: bold;
+}
+.sizeTextbox
+{
+    height: 30px;
+    width: 350px;
 }
 #footer
 {
     height: 20%;
+}
+#alignUl
+{
+    margin: auto;
+    width: 60%;
 }
 
 ul {
@@ -46,7 +57,7 @@ li a:hover {
 }
 .center
 {
-    display: block;
+    display: inline;
     margin-left: auto;
     margin-right: auto;
     width: 20%;
@@ -83,6 +94,11 @@ nav a{
     font-weight: bold;
 }
 
+nav
+{
+
+    background-color: #F7C621;
+}
 #redColorContactTable
 {
     background-color: #9E100F;
