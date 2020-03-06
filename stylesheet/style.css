@@ -28,10 +28,55 @@ body{
     height: 30px;
     width: 350px;
 }
+
 #footer
 {
     height: 20%;
+    margin-top: 5%;
 }
+
+#bannerDiv{
+    margin-top: 50px;
+    height: 150px;
+    width: 70%;
+    background-color: lightpink;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.bannerTxt{
+    margin-left: 5%;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.bannerTxt2{
+    margin-left: 5%;
+    margin-top: -3%;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.bannerP{
+    margin-left: 5%;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+#copyrightF{
+    text-align: center;
+    width: 100%;
+    background-color: grey;
+    margin: 0px;
+    padding: 0px;
+}
+
 #alignUl
 {
     margin: auto;
@@ -118,11 +163,93 @@ nav
 
 #footerPic
 {
-    height: 200px;
-    width: 100%;
+    height: 180px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
 }
+
 #alignPage
 {
     margin-top: 5%;
     margin-bottom: 10%;
 }
+
+
+/* CAROUSEL */
+
+* {
+  box-sizing: border-box;
+
+}
+
+
+.slides {
+  display: flex;
+  background: #eee;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  margin-top: 2%;
+
+
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+
+  /*
+  scroll-snap-points-x: repeat(300px);
+  scroll-snap-type: mandatory;
+  */
+}
+
+.slides::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+.slides::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 10px;
+}
+.slides::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.slides > div {
+  scroll-snap-align: start;
+  flex-shrink: 0;
+  width: 300px;
+  height: 300px;
+  margin-right: 50px;
+  border-radius: 10px;
+  background: #eee;
+  transform-origin: center center;
+  transform: scale(1);
+  transition: transform 0.5s;
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+}
+.slides > div:target {
+/*   transform: scale(0.8); */
+}
+
+.author-info {
+  background: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 0.75rem;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin: 0;
+}
+.author-info a {
+  color: white;
+}
+
+
