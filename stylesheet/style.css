@@ -178,6 +178,21 @@ nav
 }
 
 
+
+#nieuwsVlakte{
+    height: 300px;
+    width: 100%;
+    background-color: #5F4F4F;
+    margin-top: .5%;
+}
+
+#fotoNieuws{
+    margin-left: 5%;
+    height: 200px;
+    width: 25%;
+    background-color: white;
+}
+
 /* CAROUSEL */
 
 * {
