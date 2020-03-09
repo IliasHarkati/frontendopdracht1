@@ -296,3 +296,39 @@ nav
 }
 
 
+
+
+
+
+
+
+
+
+.soortenSnoep
+{
+    background-color: #BA9E9B;
+    border-radius: 10%;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+#overonsDiv>h5
+{
+    text-align: center;
+
+}
+#overonsDiv>h1
+{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+#overonsDiv
+{
+    top: 10%;
+    height: 30%px;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+}
